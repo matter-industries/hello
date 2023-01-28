@@ -1,2 +1,3 @@
-baseurl: ""
-url: "https://matter-industries.github.io"
+include:
+  - index.html
+  - assets

@@ -47,7 +47,8 @@ main
     background: white;
 }
 
-main p {
+main p
+{
     color: #2c3e50;
 }
 
@@ -87,6 +88,15 @@ footer
     margin: 0;
     padding: 1rem;
     width: 100%;
+    line-height: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social
+{
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
 }

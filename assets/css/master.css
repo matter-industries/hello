@@ -44,7 +44,7 @@ header p
 /* the main content */
 main
 {
-    background: white;
+    background: #fff;
 }
 
 main p
@@ -84,9 +84,9 @@ main #why
 footer
 {
     background: #000;
-    color: #fff;
+    color: #999;
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
     line-height: 100%;
     display: flex;
@@ -99,4 +99,14 @@ footer .social
     display: flex;
     align-items: center;
     gap: 0.125rem;
+}
+
+footer .social a
+{
+    color: #999;
+}
+
+footer .social a:hover
+{
+    color: #fff;
 }

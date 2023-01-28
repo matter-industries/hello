@@ -83,23 +83,10 @@ main #why
 footer
 {
     background: #000;
-    clear: both;
     color: #fff;
     margin: 0;
-    padding-top: 24px;
+    padding: 1rem;
     width: 100%;
-}
-
-footer .content-wrapper
-{
-    margin: 0 auto;
-    position: relative;
-    max-width: 1440px;
-    min-width: 256px;
-    padding: 48px 24px;
-}
-
-footer .content-wrapper .content
-{
-    margin: 0 auto 48px;
+    display: flex;
+    flex-direction: row;
 }
